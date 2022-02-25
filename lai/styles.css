@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* .videos {
+    height: 100vh;
+    width: 100vw;
+    } */
+
+.videos video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+}
+
+.pp {
+    font-size: 3vmax;
+    position: absolute;
+    font-weight: bold;
+    color: rgb(41, 84, 97);
+    margin-top: 30%;
+    margin-left: -200px;
+}
+
+.pp img {
+    width: 100%;
+    height: 100%;
+}
+
+.b1 {
+    font-size: 3vmax;
+    margin-left: -5px;
+    background: #d88526;
+}
+
+.b2 {
+    font-size: 3vmax;
+    margin-left: -5px;
+    position: relative;
+}
+
+
+/* sidebar */
+
+#si {
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
+    font-size: 50px;
+}
+
+.cart {
+    margin-top: 40px;
+    /* margin-left: 60px; */
+}
+
+.menu {
+    margin-top: 40px;
+}
+
+.menu a {
+    text-align: center;
+}
+
+.w3-sidebar {
+    background: rgb(50, 76, 119);
+    width: 300px;
+    height: 700px;
+    color: white;
+}
+
+#si1 {
+    font-size: 50px;
+}
+
+
+/* nguồn gốc */
+
+.nggoc {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.yu {
+    font-size: 30px;
+}
+
+.yu1 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+    font-style: normal;
+}
+
+
+/* show */
+
+.show {
+    text-align: center;
+    /* box-shadow: 2px 2px 10px black; */
+}
+
+.show img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* car dau */
+
+.chuan {
+    background-color: rgb(255, 255, 255);
+    margin-top: 5%;
+    height: 800px;
+}
+
+.chuans {
+    background-color: rgb(96, 87, 182);
+    position: relative;
+}
+
+.chuan11 {
+    margin-left: 25%;
+    margin-top: 5%;
+    font-size: 20px;
+}
+
+.chuans1 {
+    background: #ffffff;
+}
+
+.chuans1 span {
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: -50px;
+}
+
+
+/* carousel */
+
+
+/* .cardau {
+    margin-top: 5%;
+} */
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* owl nav */
+
+.col-carousel {
+    /* margin-top: 5%; */
+}
+
+.owl-carousel {
+    margin-left: -10%;
+    width: 100%;
+    position: absolute;
+    background: #ffffff;
+}
+
+.owl-prev span,
+.owl-next span {
+    color: rgb(255, 251, 251);
+    background: #9c6951ec;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-left: -12%;
+    position: relative;
+    padding: 10px;
+}
+
+.owl-prev span:hover,
+.owl-next span:hover {
+    color: #f05112;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    margin-top: 0px;
+}
+
+.owl-prev {
+    left: 7px;
+}
+
+.owl-next {
+    right: 7px;
+}
+
+
+/* removing blue outline from buttons */
+
+button:focus,
+button:active {
+    outline: none;
+}
+
+
+/* spp */
+
+#spp {
+    width: 650px;
+    /* height: 100%; */
+    border: 1px solid #D4D4D4;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    /* border-radius: 10px; */
+}
+
+.spp1 {
+    margin-top: 10px;
+}
+
+.sph {
+    background: #8199A3;
+    /* border-radius: 10px 0px 0px 10px; */
+    width: 100%;
+    height: 100%;
+}
+
+.gia {
+    margin-left: 0px;
+    background: #fff;
+}
+
+
+/* .sph img {
+    width: 100%;
+    height: 100%;
+} */
+
+.muaa {
+    color: #8f5e47ec;
+    font-size: 20px;
+}
+
+.revo {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.gioi {
+    margin-left: -5px;
+}
+
+.gioi1 {
+    /* width: 200px; */
+}
+
+#mua {
+    border-radius: 15px;
+    background: #9c6951ec;
+    width: 50%;
+    color: #fff;
+    border: 1px solid #D4D4D4;
+}
+
+#mua:hover {
+    background: lavenderblush;
+    color: black;
+}
+
+#mua1 {
+    border-radius: 15px;
+    border: 1px solid #D4D4D4;
+}
+
+
+/*  */
+
+@media(max-width:575px) {
+    .pp {
+        margin-left: -10px;
+        font-size: 20px;
+    }
+    .b1 {
+        font-size: 25px;
+    }
+    .b2 {
+        font-size: 20px;
+    }
+    /* .videos {
+        width: 350px;
+        margin-left: 230px;
+    }
+    .logo img {
+        margin-top: 20px;
+        margin-left: -200px;
+        width: 100px;
+        position: absolute;
+    } */
+    #si {
+        width: 50px;
+        height: 70px;
+        margin-top: -5px;
+        margin-left: -50px;
+    }
+    /* .w3-sidebar {
+            height: 160px;
+            width: 100px;
+        } */
+    .w3-sidebar a {
+        font-size: 10px;
+    }
+    .cart {
+        margin-top: 20px;
+    }
+    .menu {
+        margin-top: -10px;
+    }
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Slider with arrows - Owl Carousel 2 with Font Awesome 5 + Bootstrap 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/assets/owl.carousel.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.2/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.8/css/all.css'>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.6.0/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Cafe</title>
+    <title>Title</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-sm-12" onclick="closeRightMenu()">
+                <div class="row">
+                    <div class="logo col-sm-4">
+                        <img src="./image/revo_logo.png" alt="">
+                    </div>
+                    <div class="videos col-sm-8">
+
+                        <p class="pp"><b>YOUR</b><br>
+                            <b class="b1" style="color: rgb(255, 255, 255);">PERSONALIZED</b><br>
+                            <b class="b2">COFFEE</b>
+                        </p>
+
+                        <video class="videobanner" src="./image/Coffee - 38057.mp4" autoplay muted loop></video>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+                <div class="cart">
+                    <a href="#" class="w3-bar-item w3-button"><img src="./image/CART.png" alt=""></a>
+                </div>
+                <div class="menu">
+                    <a href="#" class="w3-bar-item w3-button">TRANG CHỦ</a>
+                    <a href="#" class="w3-bar-item w3-button">COFFEE</a>
+                    <a href="#" class="w3-bar-item w3-button">PHIN MẠ MÀU</a>
+                    <a href="#" class="w3-bar-item w3-button"> COMBO PHIN PHÊ</a>
+                    <a href="#" class="w3-bar-item w3-button"> GIFTSET</a>
+                    <a href="#" class="w3-bar-item w3-button"> LIÊN HỆ</a>
+                </div>
+            </div>
+            <button id="si" class="w3-button w3-right" onclick="openRightMenu()">&#9776;</button>
+
+        </div>
+        <!--  -->
+        <div class="show container-fluid">
+            <div class="nggoc container-fluid">
+                <div class="col-sm-12">
+                    <p class="yu">Your Personalized Coffee</p>
+                    <p class="yu1">COFFEE BUILD YOUR BASE</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="./image/1 (1).png" alt="">
+                    <!-- <br> -->
+                    <!--<p class="ng">Nguồn Gốc</p>
+                <p>Những hạt cà phê Arabica, <br>Robusta đạt chất lượng <br> tiêu chuẩn quốc tế.</p> -->
+                </div>
+                <div class="col-sm-3">
+                    <img src="./image/2 (1).png" alt="">
+                    <!-- <Br>
+                <p class="ng">Chất Lượng</p>
+                <p>Từng một hạt cà phê là cả một<br> quá trình tập trung cao độ của<br> nghệ nhân cà phê.</p> -->
+                </div>
+                <div class="col-sm-3">
+                    <img src="./image/3 (1).png" alt="">
+                    <!-- <Br>
+                <p class="ng">Các Loại Hạt</p>
+                <p>70% chất lượng tách cà phê<br> đến từ nguồn gốc và chất lượng<br> green bean.</p> -->
+                </div>
+
+                <div class="col-sm-3">
+                    <img src="./image/4.png" alt="">
+                    <!-- <Br>
+                <p class="ng">Pha Chế</p>
+                <p>Những hạt cà phê được lột xác<br> qua quá trình rang xay kỹ lưỡng<br> và nghiêm ngặt.</p> -->
+                </div>
+            </div>
+        </div>
+        <!-- car dầu -->
+        <div class="chuan row">
+            <div class="chuans col-sm-3">
+
+            </div>
+            <div class="chuans1 col-sm-9">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="chuan11">Choose Your Favorite<br>
+                            <span> CHUẨN GU ĐÚNG VỊ</span></p>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="row">
+
+                            <div class="col-sm-12 col-carousel">
+                                <div class="owl-carousel carousel-main">
+                                    <div class="gioi col-sm-3">
+                                        <div class="gioi1 row">
+                                            <div class="col-sm-12">
+                                                <div class="row" id="spp">
+                                                    <div class="sph col-sm-5">
+                                                        <img src="./image/image.png" alt="">
+                                                    </div>
+                                                    <div class="gia col-sm-7">
+                                                        <p class="muaa">99.000</p>
+                                                        <p class="revo">REVO Morning</p>
+                                                        <p class="revo1">đắng, hậu ngọt, hương hoa </p>
+                                                        <div class="row">
+                                                            <button id="mua" type="button" class="btn btn-warning"><a href="">MUA HÀNG</a></button>
+                                                            <button id="mua1" type="button" class="btn btn-light"><a href="">CHI TIẾT</a></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="spp1 col-sm-12">
+                                                <div class="row" id="spp">
+                                                    <div class="sph col-sm-5">
+                                                        <img src="./image/image (1).png" alt="">
+                                                    </div>
+                                                    <div class="gia col-sm-7">
+                                                        <p class="muaa">99.000</p>
+                                                        <p class="revo">REVO Morning</p>
+                                                        <p class="revo1">đắng, hậu ngọt, hương hoa </p>
+
+                                                        <button id="mua" type="button" class="btn btn-warning"><a href="">MUA HÀNG</a></button>
+                                                        <button id="mua1" type="button" class="btn btn-light"><a href="">CHI TIẾT</a></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gioi col-sm-3">
+                                        <div class="gioi1 row">
+                                            <div class="col-sm-12">
+                                                <div class="row" id="spp">
+                                                    <div class="sph col-sm-5">
+                                                        <img src="./image/image (2).png" alt="">
+                                                    </div>
+                                                    <div class="gia col-sm-7">
+                                                        <p class="muaa">99.000</p>
+                                                        <p class="revo">REVO Morning</p>
+                                                        <p class="revo1">đắng, hậu ngọt, hương hoa </p>
+
+                                                        <button id="mua" type="button" class="btn btn-warning"><a href="">MUA HÀNG</a></button>
+                                                        <button id="mua1" type="button" class="btn btn-light"><a href="">CHI TIẾT</a></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="spp1 col-sm-12">
+                                                <div class="row" id="spp">
+                                                    <div class="sph col-sm-5">
+                                                        <img src="./image/image (3).png" alt="">
+                                                    </div>
+                                                    <div class="gia col-sm-7">
+                                                        <p class="muaa">99.000</p>
+                                                        <p class="revo">REVO Morning</p>
+                                                        <p class="revo1">đắng, hậu ngọt, hương hoa </p>
+
+                                                        <button id="mua" type="button" class="btn btn-warning"><a href="">MUA HÀNG</a></button>
+                                                        <button id="mua1" type="button" class="btn btn-light"><a href="">CHI TIẾT</a></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gioi col-sm-3">
+                                        <div class="gioi1  row">
+                                            <div class="col-sm-12">
+                                                <div class="row" id="spp">
+                                                    <div class="sph col-sm-5">
+                                                        <img src="./image/image.png" alt="">
+                                                    </div>
+                                                    <div class="gia col-sm-7">
+                                                        <p class="muaa">99.000</p>
+                                                        <p class="revo">REVO Morning</p>
+                                                        <p class="revo1">đắng, hậu ngọt, hương hoa </p>
+
+                                                        <button id="mua" type="button" class="btn btn-warning"><a href="">MUA HÀNG</a></button>
+                                                        <button id="mua1" type="button" class="btn btn-light"><a href="">CHI TIẾT</a></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="spp1 col-sm-12">
+                                                <div class="row" id="spp">
+                                                    <div class="sph col-sm-5">
+                                                        <img src="./image/image (1).png" alt="">
+                                                    </div>
+                                                    <div class="gia col-sm-7">
+                                                        <p class="muaa">99.000</p>
+                                                        <p class="revo">REVO Morning</p>
+                                                        <p class="revo1">đắng, hậu ngọt, hương hoa </p>
+
+                                                        <button id="mua" type="button" class="btn btn-warning"><a href="">MUA HÀNG</a></button>
+                                                        <button id="mua1" type="button" class="btn btn-light"><a href="">CHI TIẾT</a></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="gioi col-sm-3">
+                                        <div class="gioi1 row">
+                                            <div class="col-sm-12">
+                                                <div class="row" id="spp">
+                                                    <div class="sph col-sm-5">
+                                                        <img src="./image/image (2).png" alt="">
+
+                                                    </div>
+                                                    <div class="gia col-sm-7">
+                                                        <p class="muaa">99.000</p>
+                                                        <p class="revo">REVO Morning</p>
+                                                        <p class="revo1">đắng, hậu ngọt, hương hoa </p>
+
+                                                        <button id="mua" type="button" class="btn btn-warning"><a href="">MUA HÀNG</a></button>
+                                                        <button id="mua1" type="button" class="btn btn-light"><a href="">CHI TIẾT</a></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="spp1  col-sm-12">
+                                                <div class="row" id="spp">
+                                                    <div class="sph col-sm-5">
+                                                        <img src="./image/image (3).png" alt="">
+                                                    </div>
+                                                    <div class="gia col-sm-7">
+                                                        <p class="muaa">99.000</p>
+                                                        <p class="revo">REVO Morning</p>
+                                                        <p class="revo1">đắng, hậu ngọt, hương hoa </p>
+
+                                                        <button id="mua" type="button" class="btn btn-warning"><a href="">MUA HÀNG</a></button>
+                                                        <button id="mua1" type="button" class="btn btn-light"><a href="">CHI TIẾT</a></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/owl.carousel.min.js'></script>
+    <script src="./srcipt.js"></script>
+</body>
+
+</html>
